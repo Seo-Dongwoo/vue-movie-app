@@ -1,0 +1,17 @@
+// Default variable overrides
+$primary: #FCD000;
+$container-max-widths: (
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+  // 화면에 영화 포스터가 6개 까지 보일 수 있게 해주는 작업!
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
